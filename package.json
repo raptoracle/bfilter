@@ -8,10 +8,10 @@
     "murmur3"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bfilter.git",
-  "homepage": "https://github.com/bcoin-org/bfilter",
+  "repository": "git://github.com/raptoracle/bfilter.git",
+  "homepage": "https://github.com/raptoracle/bfilter",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bfilter/issues"
+    "url": "https://github.com/raptoracle/bfilter/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/bfilter.js",
@@ -20,13 +20,13 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bcrypto": "git+https://github.com/bcoin-org/bcrypto.git#semver:~5.5.0",
-    "bsert": "git+https://github.com/chjj/bsert.git#semver:~0.0.10",
-    "bufio": "git+https://github.com/bcoin-org/bufio.git#semver:~1.0.6",
-    "loady": "git+https://github.com/chjj/loady.git#semver:~0.0.1"
+    "bcrypto": "git+https://github.com/raptoracle/bcrypto.git#semver:~5.5.0",
+    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13",
+    "bufio": "git+https://github.com/raptoracle/bufio.git#semver:~1.2.1",
+    "loady": "git+https://github.com/raptoracle/loady.git#semver:~0.0.5"
   },
   "devDependencies": {
-    "bmocha": "git+https://github.com/bcoin-org/bmocha.git#semver:^2.1.2"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
   },
   "engines": {
     "node": ">=8.0.0"
