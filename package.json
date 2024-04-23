@@ -20,13 +20,13 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bcrypto": "git+https://github.com/raptoracle/bcrypto.git#semver:~5.5.0",
-    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13",
-    "bufio": "git+https://github.com/raptoracle/bufio.git#semver:~1.2.1",
-    "loady": "git+https://github.com/raptoracle/loady.git#semver:~0.0.5"
+    "bcrypto": "git+https://github.com/raptoracle/bcrypto.git",
+    "bsert": "git+https://github.com/raptoracle/bsert.git",
+    "bufio": "git+https://github.com/raptoracle/bufio.git",
+    "loady": "git+https://github.com/raptoracle/loady.git"
   },
   "devDependencies": {
-    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git"
   },
   "engines": {
     "node": ">=8.0.0"
